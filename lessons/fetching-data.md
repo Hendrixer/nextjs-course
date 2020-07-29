@@ -113,7 +113,7 @@ Use client-side data fetching.
 **Do you need data at runtime but do need SSR?**
 Use `getServerSideProps`
 
-**Do you have pages that rely on data that is cachable and accessible at build time? Like from a CMS?**
+**Do you have pages that rely on data that is cacheable and accessible at build time? Like from a CMS?**
 Use `getStaticProps`
 
 **Do you have the same as above but the pages have dynamic URL params?**
