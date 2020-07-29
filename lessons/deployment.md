@@ -10,14 +10,14 @@ Depending on how you build your app will determine where you can deploy to.
 
 By default, a Next.js app has to be deployed to an environment that supports Node.js. So that's pretty much everywhere expect static hosting services like netlify (not easily anyway).
 
-> 👍🏾 &nbsp;&nbsp;**tip**: You should deploy to vercel. Vercel literally made Next.js.
+> 👍🏾 &nbsp;&nbsp;**tip**: You should deploy to Vercel. Vercel literally made Next.js.
 
 If you export your app to be pure static (no need for Node), you can deploy to static hosting services. You can use:
 `next export`
 
 To do that. There are some [gotchas](https://nextjs.org/docs/advanced-features/static-html-export), though.
 
-> ⚠️ &nbsp;&nbsp;**warning**: Besure to change the hardcoded API URLS in the fetch calls to use and ENV var for the live URLS.
+> ⚠️ &nbsp;&nbsp;**warning**: Be sure to change the hardcoded API URLs in the fetch calls to use and ENV var for the live URLs.
 
 We're going to deploy to Vercel.
 It's actually pretty easy. Install the CLI
@@ -33,4 +33,4 @@ vercel
 ```
 
 That's it!
-If your project is already on Github, you can deploy that way from vercel as well. Create an account and connect your Github account.
+If your project is already on Github, you can deploy that way from Vercel as well. Create an account and connect your Github account.
