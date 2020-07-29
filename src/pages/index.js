@@ -1,8 +1,7 @@
-import React from "react";
-import { StaticQuery, graphql } from "gatsby";
-import Card from "../components/TOCCard";
-
-import "./index.css";
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
+import { StaticQuery, graphql } from 'gatsby'
+import Card from '../components/TOCCard'
 
 const IndexPage = () => (
   <StaticQuery
@@ -33,10 +32,10 @@ const IndexPage = () => (
       }
     `}
     render={props => (
-      <div className="index">
-        <div className="jumbotron gradient">
-          <h1>{props.site.siteMetadata.title}</h1>
-          <h2>{props.site.siteMetadata.subtitle}</h2>
+      <div>
+        <div sx={{mb: 3}}>
+          <h1 sx={{fontSize: 14}}>{props.site.siteMetadata.title}</h1>
+          <p sx={{fontSize: 10}}>{props.site.siteMetadata.subtitle}</p>
         </div>
 
         <Card
@@ -46,6 +45,6 @@ const IndexPage = () => (
       </div>
     )}
   />
-);
+)
 
-export default IndexPage;
+export default IndexPage
