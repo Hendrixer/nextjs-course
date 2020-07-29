@@ -26,7 +26,7 @@ Like Next.js, [create-react-app (CRA)]() has a bunch of opinions baked in too. H
 
 
 ## What about Gatsby
-[Gatsby]() is more similar to Next.js than CRA. Gatsby has conventions built in the will to make anyone looking to make a static app with React happily. Gatsby is not a full-stack framework and cannot create API routes or server-side rendering. Gatsby does have features like a content mesh, GraphQL support built-in, image optimization, and others that Next.js does not have.
+[Gatsby]() is more similar to Next.js than CRA. Gatsby has conventions built in that will make anyone looking to make a static app with React happy. Gatsby is not a full-stack framework and cannot create API routes or server-side rendering. Gatsby does have features like a content mesh, GraphQL support built-in, image optimization, and others that Next.js does not have.
 
 ## When to use Next.js
 Here's my general guide on when to use what when making a React app.
