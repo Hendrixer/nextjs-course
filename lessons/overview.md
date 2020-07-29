@@ -8,6 +8,9 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 ## Format
 In this course, you'll be following along with me while exploring the concepts of Next.js while building a simple app. We'll stay focused on Next.js specifics and breeze through the rest. All the lessons are on this site. However, to get the best experience, there are videos on [Frontend Masters](https://frontendmasters.com) accompanying this course. You will need a membership to view them. (Highly recommended)
 
+Here is the repo, [hendrixer/nextjs-course-app](https://github.com/Hendrixer/nextjs-course-app/tree/master).
+
+
 Although we'll be building an app from scratch, I'll have every step easily ready for you to look at. Each lesson has a branch name associated with it. You can checkout to that branch to see the solution to that lesson. A lesson on this site will show its branch name like this:
 
 > 🌲 **branch**: `git checkout the-branch-name`
