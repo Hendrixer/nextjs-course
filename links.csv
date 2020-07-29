@@ -1,6 +1,6 @@
 order,title,link0,link1,link2
 1A,Introduction,https://github.com,https://tipe.io,https://frontendmasters.com
-1B,Course Overview,https://frontendmasters.com,,
+1B,Course Overview,https://frontendmasters.com,https://github.com/Hendrixer/nextjs-course-app/tree/master,
 1C,Setup,https://github.com/nvm-sh/nvm,https://github.com/tj/n,
 2A,What you'll learn,,,
 2B,What is Next.js,https://vercel.com,,
