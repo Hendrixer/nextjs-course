@@ -8,7 +8,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 
 If you want to change the build system's behavior, extend Next.js's features, or add ENV variables, you can do this easily in the `next-config.js` file.
 
-Either export and objet:
+Either export the object:
 
 ```js
 module.exports = {
