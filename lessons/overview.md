@@ -37,5 +37,5 @@ Throughout this course, lessons will have some sections that hint at certain thi
 ### Summary TLDR;
 > 📏 &nbsp;&nbsp;**TLDR**: in short, it means this
 
-### Extr info
+### Extra info
 > 🕳 &nbsp;&nbsp;**deep dive**: you can also use this thing
