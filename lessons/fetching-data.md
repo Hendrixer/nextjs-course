@@ -135,7 +135,7 @@ const notes = new Array(15)
 Let's fetch some notes from our API in our app now.
 First, getting all the notes. Because the notes can be created and are dynamic, we can fetch them client-side or server-side render. Let's do the latter. 
 
-> ⚠️ &nbsp;&nbsp;**warning**: Don't use `getServerSideProps` unless absolutely necessary. Because it computes on every requests, it can be slow.
+> ⚠️ &nbsp;&nbsp;**warning**: Don't use `getServerSideProps` unless absolutely necessary. Because it computes on every request, it can be slow.
 
 ```jsx
 // pages/note/index.jsx
