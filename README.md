@@ -6,7 +6,6 @@
 
 ## Get Started
 
-
 ## License
 
 The **code** is this repo is licensed under the Apache 2.0 license.
