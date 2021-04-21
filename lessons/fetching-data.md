@@ -39,7 +39,7 @@ export async function getStaticProps(context) {
 }
 ```
 
-By having your page export `getStaticPros`, Next.js will run this function at **build time**. Whatever your return as props will be passed into the exported page.
+By having your page export `getStaticProps`, Next.js will run this function at **build time**. Whatever your return as props will be passed into the exported page.
 
 > 🕳 &nbsp;&nbsp;**deep dive**: The results of this function are saved into a JSON file and passed as props to the client's component at runtime.
 
