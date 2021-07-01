@@ -7,7 +7,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 ---
 
 ## The easy way
-You can use `creat-next-app` to get started very quickly.
+You can use `create-next-app` to get started very quickly.
 
 **npm**
 ```shell
