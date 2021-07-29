@@ -56,7 +56,7 @@ create note => POST /api/note
 update note => PATCH /api/note/:id
 delete note => DELETE /api/note/:id
 get one note => DELETE /api/note/:id
-get all notes => DELETE /api/note/
+get all notes => GET /api/note/
 ```
 
 So from above, we only have 2 routes:
