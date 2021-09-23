@@ -55,8 +55,8 @@ Pretty clean! Now, let's create some API routes for our Notes app. We need some 
 create note => POST /api/note
 update note => PATCH /api/note/:id
 delete note => DELETE /api/note/:id
-get one note => DELETE /api/note/:id
-get all notes => DELETE /api/note/
+get one note => GET /api/note/:id
+get all notes => GET /api/note/
 ```
 
 So from above, we only have 2 routes:
