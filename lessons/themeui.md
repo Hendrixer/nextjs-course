@@ -15,11 +15,11 @@ Let's get our app looking like an app. First, install some things.
 
 **npm**
 ```shell
-npm i theme-ui @theme-ui/presets --save
+npm i theme-ui@0.3.1 @theme-ui/presets@0.3.0 --save
 ```
 **yarn**
 ```shell
-yarn add theme-ui @theme-ui/presets
+yarn add theme-ui@0.3.1 @theme-ui/presets@0.3.0
 ```
 
 Next, we'll create a theme. Make a file on the root of your app.
