@@ -17,7 +17,7 @@ If you export your app to be pure static (no need for Node), you can deploy to s
 
 To do that. There are some [gotchas](https://nextjs.org/docs/advanced-features/static-html-export), though.
 
-> ⚠️ &nbsp;&nbsp;**warning**: Be sure to change the hardcoded API URLS in the fetch calls to use and ENV var for the live URLS.
+> ⚠️ &nbsp;&nbsp;**warning**: Be sure to change the hardcoded API URLs in the fetch calls to use and ENV var for the live URLs.
 
 We're going to deploy to Vercel.
 It's actually pretty easy. Install the CLI
