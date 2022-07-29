@@ -8,7 +8,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 
 Now let's create some API handlers to handle data for our Notes app. The handlers are based on [Connect](https://www.npmjs.com/package/connect), which [Express](https://expressjs.com/). 
 
-> 👍🏾 &nbsp;&nbsp;**tipe**: You can learn more about [Express and APIs with Node.js](https://frontendmasters.com/courses/api-design-nodejs-v3/) from Frontend Masters
+> 👍🏾 &nbsp;&nbsp;**tip**: You can learn more about [Express and APIs with Node.js](https://frontendmasters.com/courses/api-design-nodejs-v3/) from Frontend Masters
 
 A handler looks like this:
 
@@ -55,8 +55,8 @@ Pretty clean! Now, let's create some API routes for our Notes app. We need some 
 create note => POST /api/note
 update note => PATCH /api/note/:id
 delete note => DELETE /api/note/:id
-get one note => DELETE /api/note/:id
-get all notes => DELETE /api/note/
+get one note => GET /api/note/:id
+get all notes => GET /api/note/
 ```
 
 So from above, we only have 2 routes:

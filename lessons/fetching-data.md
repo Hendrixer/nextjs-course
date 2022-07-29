@@ -113,7 +113,7 @@ Use client-side data fetching.
 **Do you need data at runtime but do need SSR?**
 Use `getServerSideProps`
 
-**Do you have pages that rely on data that is cachable and accessible at build time? Like from a CMS?**
+**Do you have pages that rely on data that is cacheable and accessible at build time? Like from a CMS?**
 Use `getStaticProps`
 
 **Do you have the same as above but the pages have dynamic URL params?**
@@ -135,7 +135,7 @@ const notes = new Array(15)
 Let's fetch some notes from our API in our app now.
 First, getting all the notes. Because the notes can be created and are dynamic, we can fetch them client-side or server-side render. Let's do the latter. 
 
-> ⚠️ &nbsp;&nbsp;**warning**: Don't use `getServerSideProps` unless absolutely necessary. Because it computes on every requests, it can be slow.
+> ⚠️ &nbsp;&nbsp;**warning**: Don't use `getServerSideProps` unless absolutely necessary. Because it computes on every request, it can be slow.
 
 ```jsx
 // pages/note/index.jsx
