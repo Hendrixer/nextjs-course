@@ -8,7 +8,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 
 Depending on how you build your app will determine where you can deploy to.
 
-By default, a Next.js app has to be deployed to an environment that supports Node.js. So that's pretty much everywhere expect static hosting services like netlify (not easily anyway).
+By default, a Next.js app has to be deployed to an environment that supports Node.js. So that's pretty much everywhere except static hosting services like netlify (not easily anyway).
 
 > 👍🏾 &nbsp;&nbsp;**tip**: You should deploy to Vercel. Vercel literally made Next.js.
 
