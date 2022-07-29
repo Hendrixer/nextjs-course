@@ -23,7 +23,7 @@ Next.js is full of goodies, and we won't be covering every single corner of it. 
 - [ ] Fetching data
 - [ ] Prerendering
 - [ ] Deployment
-- [ ] JAMstack
+- [ ] Jamstack
 
 
 I really love this framework and how easy it makes my life. I hope you walk away from this feeling the same; let's go 🎉!
