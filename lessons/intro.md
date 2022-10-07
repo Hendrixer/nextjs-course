@@ -24,7 +24,7 @@ This course will also cover a decent amount of JAMstack practices and techniques
 This class's goal is to walk away with the ability to create an app using Next.js and have a great foundation to learn more advanced topics.
 
 ## Contributing
-Find a typo or error? This course is open-source; make a [Pull Request](https://github.com)!
+Find a typo or error? This course is open-source; make a [Pull Request](https://github.com/Hendrixer/nextjs-course)!
 
 ## Who Am I
 
