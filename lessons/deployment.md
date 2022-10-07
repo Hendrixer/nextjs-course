@@ -33,4 +33,4 @@ vercel
 ```
 
 That's it!
-If your project is already on GitHub, you can deploy that way from Vercel as well. Create an account and connect your Github account.
+If your project is already on GitHub, you can deploy that way from Vercel as well. Create an account and connect your GitHub account.
