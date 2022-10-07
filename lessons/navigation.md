@@ -9,7 +9,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 Next.js has a few tricks up its sleeve to help us navigate between pages.
 
 ## Link component
-Similar to an `<a>` tag, we can use the `Link` component from then `next/link` module. 
+Similar to an `<a>` tag, we can use the `Link` component from the `next/link` module. 
 
 ```jsx
 <Link href="/settings">
