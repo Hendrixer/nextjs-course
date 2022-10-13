@@ -90,7 +90,7 @@ A few subtle but **powerful** things here. First, lets talk about this:
 import { jsx } from 'theme-ui'
 ```
 
-Ummm, what is that, and how does this component render JSX without importing React? That comment is something called `JSX pragma`. Its a hint to the compiler how to compile this file. The comment combined with the JSX import from `theme-ui` tells the compiler, babel, in this case, of what JSX tool to use to handle JSX in this file. It's the same reason you had to import React in your JSX files.
+Ummm, what is that, and how does this component render JSX without importing React? That comment is something called `JSX pragma`. It's a hint to the compiler how to compile this file. The comment combined with the JSX import from `theme-ui` tells the compiler, babel, in this case, of what JSX tool to use to handle JSX in this file. It's the same reason you had to import React in your JSX files.
 
 We need the theme-ui JSX to use the `sx` prop on all of our components. The `sx` prop allows us to add inline styles to components using CSS properties and values and values from our theme object that we created. It's **BEAUTIFUL** 💋.
 
@@ -168,7 +168,7 @@ We now need to wrap our app in the Theme UI provider. We have two options:
 * wrap every page individually
 * wrap the root component
 
-Because we want to use Theme UI in our entire app, its safe to wrap the root. So in the `pages/_app.jsx` file: 
+Because we want to use Theme UI in our entire app, it's safe to wrap the root. So in the `pages/_app.jsx` file: 
 
 ```jsx
 /** @jsx jsx */
