@@ -8,7 +8,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 
 You don't need to interact with a router directly to create pages. Next.js has built on conventions to make creating routes as easy as creating a file 🤙🏾.
 
-To get started, create a directory on your called `/pages`. Next.js will associate any file in this directory as a route. The file names determine the route name or pattern, and whatever component is exported is the actual page.
+To get started, create a directory in your root called `/pages`. Next.js will associate any file in this directory as a route. The file names determine the route name or pattern, and whatever component is exported is the actual page.
 
 Now let's create an index route by creating a file: `/pages/index.jsx`.
 
@@ -116,7 +116,7 @@ router.query.id
 ```
 
 ### Catch-all routes
-There's a beautiful feature that Next.js that allows us to define catch-all routes for when we're too lazy to make a page for each one.
+There's a beautiful feature in Next.js that allows us to define catch-all routes for when we're too lazy to make a page for each one.
 
 > 👍🏾&nbsp;&nbsp;**tip**: A lazy developer is a good developer, well, ...sometimes 🙄
 
@@ -132,7 +132,7 @@ All we need is to create a file in our pages directory like this:
 docs/[...param].jsx
 ```
 
-So the ellipsis `...` is used in this example to same that this file will represent and route that matches `/docs/a` or `docs/a/b` or `docs/a/b/c/d/a/b`. You get the point. You can then access all the params the same way you do with a single route param. The only difference is the value will be an array of the params in order.
+So the ellipsis `...` is used in this example to same that this file will represent any route that matches `/docs/a` or `docs/a/b` or `docs/a/b/c/d/a/b`. You get the point. You can then access all the params the same way you do with a single route param. The only difference is the value will be an array of the params in order.
 
 ```jsx
 import React from 'react'
