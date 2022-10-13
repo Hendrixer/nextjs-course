@@ -8,7 +8,7 @@ description: "Learn Next.js with Scott Moss and Frontend Masters"
 
 Next.js comes with some styling conventions baked in, and they're pretty good. Because Next.js uses React, you can also use any other mechanism that works with React to style your apps.
 
-> 👍🏾&nbsp;&nbsp;**tip** You might have to extend Next.js tp support your styling approach. More on that later.
+> 👍🏾&nbsp;&nbsp;**tip** You might have to extend Next.js to support your styling approach. More on that later.
 
 When it comes to styling, you have global styles and component styles. For global CSS, you have to import them at the entry point of your app. Wait, where is the entrance to my Next.js app? It's actually created for you, but you can and have to create your own now that you want global styles.
 
@@ -29,7 +29,7 @@ import '../mystyles.css'
 
 Now, when you don't want global CSS, Next.js supports [css modules](https://github.com/css-modules/css-modules). This will scope your CSS, avoiding collisions.
 
-> 🕳 &nbsp;&nbsp;**deep dive**: a unique class name is created every import to reuse the same CSS class names
+> 🕳 &nbsp;&nbsp;**deep dive**: a unique class name is created for every import to reuse the same CSS class names
 
 You can import a CSS module file anywhere in your app. To create a CSS module, you have to use a special syntax in the file name.
 
