@@ -15,8 +15,6 @@ Now let's create an index route by creating a file: `/pages/index.jsx`.
 Next, let's create a component and export it:
 
 ```jsx
-import React from 'react'
-
 export default () => <h1>Index Page</h1>
 ```
 
@@ -61,8 +59,6 @@ By adding an `index` page in a folder, we're telling Next.js that we want this c
 
 Here's a placeholder component for that page that you can use.
 ```jsx
-import React from 'react'
-
 export default () => <h1>Notes</h1>
 ```
 
@@ -92,7 +88,6 @@ pages
 We can access the `id` param inside our page component using the  `useRouter` hook from the `next/route` module. This comes for free with Next.js.
 
 ```jsx
-import React from 'react'
 import { useRouter } from 'next/router'
 
 export default () => {
@@ -135,7 +130,6 @@ docs/[...param].jsx
 So the ellipsis `...` is used in this example to same that this file will represent any route that matches `/docs/a` or `docs/a/b` or `docs/a/b/c/d/a/b`. You get the point. You can then access all the params the same way you do with a single route param. The only difference is the value will be an array of the params in order.
 
 ```jsx
-import React from 'react'
 import { useRouter } from 'next/router'
 
 // file => /docs/[...params].jsx
