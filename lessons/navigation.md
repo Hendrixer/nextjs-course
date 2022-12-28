@@ -11,9 +11,11 @@ Next.js has a few tricks up its sleeve to help us navigate between pages.
 ## Link component
 Similar to an `<a>` tag, we can use the `Link` component from the `next/link` module. 
 
+**Starting with Next.js 13, <Link> renders as <a>, so attempting to use <a> as a child is invalid. [more](https://nextjs.org/docs/messages/invalid-new-link-with-extra-anchor). As well you can use `legacyBehavior` property.**
+
 ```jsx
 <Link href="/settings">
-  <a>settings</a>
+  settings
 </Link>
 ```
 
@@ -27,7 +29,7 @@ For dynamic routes, you will need the `as` prop as well.
 
 ```jsx
 <Link href="/user/[id].js" as={`/user/${user.id}`}>
-  <a>user</a>
+  user
 </Link>
 ```
 
@@ -43,7 +45,7 @@ export default () => (
     <h1>Index page</h1>
 
     <Link href="/notes">
-      <a>Notes</a>
+      Notes
     </Link>
   </div> 
 )
@@ -63,10 +65,8 @@ export default () => {
 
       {notes.map(note => (
         <div>
-          <Link key={note.id} href="/notes/[id]" as={`/notes/${note.id}`}>
-            <a>
+          <Link key={note.id} href="/notes/[id]" as={`/notes/${note.id}`}> 
               <strong>{note.title}</strong>
-            </a>
           </Link>
         </div>
       ))}
@@ -90,7 +90,7 @@ export default () => {
       <h1>Note: {id} </h1>
 
       <Link href="/notes">
-        <a>Notes</a>
+        Notes
       </Link>
     </div>
   )
